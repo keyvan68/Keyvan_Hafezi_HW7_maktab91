@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="dist/css/bootstrap.rtl.min.css">
+    <script src="dist/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="css/hw1cs.css">
+    <title>Document</title>
+   
+</head>
+
+<body>
+    <div class="container">
+        <div class="row main">
+            <div class="LeftSide col-lg-8 col-md-8 col-sm-12 ">
+                <div class="row d-flex justify-content-around">
+                    <div class="col-md-6">
+                        <span class="p-3 d-flex justify-content-start">سبد خرید</span>
+                    </div>
+                    <div class="col-md-6">
+                        <span class="p-3 d-flex justify-content-end">3 آیتم</span>
+                    </div>
+                </div>
+                <hr class="hrcontent">
+                <div class="row p-3">
+                    <div class="col-md-1">
+
+                    </div>
+                    <div class="col-md-2">
+                        <div class="imageBox">
+
+                            <img src="images/cloth1.png" alt="لباس 1" class="h-100 w-100">
+                        </div>
+                    </div>
+                    <div class="col-md-2">
+                        تی شرت 1
+                    </div>
+                    <div class="col-md-2">
+                        <input id="count1" type="number" style="width: 50px;" value="0">
+                    </div>
+                    <div class="col-md-2">
+                        <span id="price1">44</span>
+                    </div>
+                    <div class="col-md-1">
+
+                    </div>
+                    <div class="col-md-2">
+
+                        <button class="btn btn-default">x</button>
+
+                    </div>
+                </div>
+                <hr class="hrcontent">
+                <div class="row p-3">
+                    <div class="col-md-1">
+
+                    </div>
+                    <div class="col-md-2">
+                        <div class="imageBox">
+
+                            <img src="images/cloth2.png" alt="لباس 2" class="h-100 w-100">
+                        </div>
+                    </div>
+                    <div class="col-md-2">
+                        تی شرت 2
+                    </div>
+                    <div class="col-md-2">
+                        <input id="count2" type="number" style="width: 50px;" value="0">
+                    </div>
+                    <div class="col-md-2">
+                        <span id="price2">33</span>
+                    </div>
+                    <div class="col-md-1">
+
+                    </div>
+                    <div class="col-md-2">
+
+                        <button class="btn btn-default">x</button>
+
+                    </div>
+                </div>
+                <hr class="hrcontent">
+                <div class="row p-3">
+                    <div class="col-md-1">
+
+                    </div>
+                    <div class="col-md-2">
+                        <div class="imageBox">
+
+                            <img src="images/cloth3.png" alt="لباس 3" class="h-100 w-100">
+                        </div>
+                    </div>
+                    <div class="col-md-2">
+                        تی شرت 3
+                    </div>
+                    <div class="col-md-2">
+                        <input id="count3" type="number" style="width: 50px;" value="0">
+                    </div>
+                    <div class="col-md-2">
+                        <span id="price3">50</span>
+                    </div>
+                    <div class="col-md-1">
+
+                    </div>
+                    <div class="col-md-2">
+
+                        <button class="btn btn-default">x</button>
+
+                    </div>
+                </div>
+                <hr class="hrcontent">
+                <div class="row">
+                    <div class="col-md-4">
+                        <button class="btn btn-default p-2 m-3">→ برگشت به منو</button>
+                    </div>
+
+                </div>
+            </div>
+            <div class="RightSide col-lg-4 col-md-4 col-sm-12 " style="background-color: grey;">
+                <div class="row">
+                    <div class="col-md-6">
+                        <span class="p-3 d-flex justify-content-start">جمع ایتم ها</span>
+                    </div>
+
+                </div>
+                <hr class="hrcontent">
+                <div class="row">
+                    <div class="col-md-6">
+                        <span class="p-2 d-flex justify-content-start">ایتم ها</span>
+                    </div>
+                    <!-- dsf -->
+                    <div class="col-md-6">
+                        <span class="p-2 d-flex justify-content-end" id="item">0</span>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col-md-6">
+                        <span class="p-2 d-flex justify-content-start">هزینه حمل و نقل</span>
+                    </div>
+                </div>
+                <div class="row">
+
+                    <div class="col- align-self-center ">
+                        <select id="selectOpt" class="form-select" aria-label="Default">
+                            <option value="50" selected>تحویل معمولی 50 تومان</option>
+                            <option value="100">تحویل سریع 100 تومان</option>
+                        </select>
+                    </div>
+                    <div class="offset-3"></div>
+                </div>
+                <div class="row">
+                    <div class="col-md-6">
+                        <span class="p-2 d-flex justify-content-start">کد تخفیف</span>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col- align-self-center">
+                        <div class="input-group">
+                            <input type="text" class="form-control"
+                                aria-label="Dollar amount (with dot and two decimal places)">
+                            <i class="trailing"></i>
+                            <!-- <span class="input-group-text">-></span> -->
+
+                        </div>
+                    </div>
+                </div>
+                <hr class="hrcontent">
+                <div class="row">
+                    <div class="col-md-6">
+                        <span class="p-2 d-flex justify-content-start">کل قیمت</span>
+                    </div>
+                    <div class="col-md-6">
+                        <span class="p-2 d-flex justify-content-end" id="total">0</span>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col- align-self-center">
+                        <div class="input-group">
+                            <!-- ← -->
+                            <input type="button" class="form-control btn btn-dark" value=" تسویه حساب">
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    </div>
+    </div>
+
+    <script src="js/jquery-3.6.3.min.js"></script>
+    <script src="js/hw1js.js"></script>
+   <script>
+
+        // $(function () {
+        // });
+        // let sum1 = 0;
+        // let sum2 = 0;
+        // let sum3 = 0;
+        // let selectedOption = 0;
+        // $("#count1").change(function () {
+
+        //     let count1 = $("#count1").val();
+        //     let price1 = $("#price1").text();
+        //     sum1 = count1 * price1;
+
+        //     return AddItem(sum1, sum2, sum3, selectedOption);
+
+        // });
+
+        // //var conceptName = $('#aioConceptName').find(":selected").val();
+        // $("#count2").change(function () {
+
+        //     let count2 = $("#count2").val();
+        //     let price2 = $("#price2").text();
+        //     sum2 = count2 * price2;
+
+        //     return AddItem(sum1, sum2, sum3, selectedOption);
+
+        // });
+        // $("#count3").change(function () {
+
+        //     let count3 = $("#count3").val();
+        //     let price3 = $("#price3").text();
+        //     sum3 = count3 * price3;
+
+        //     return AddItem(sum1, sum2, sum3, selectedOption);
+
+        // });
+
+
+        // $('#selectOpt').change(function () {
+        //     selectedOption = Number(this.value);
+        //     //alert(this.value);
+        //     return AddItem(sum1, sum2, sum3, selectedOption);
+        // });
+
+
+
+        // // return textvalu
+
+        // function AddItem(sum1, sum2, sum3, selectedOption) {
+
+        //     let sumItem = 0;
+        //     let totalItem = 0;
+        //     //console.log(count);
+
+        //     sumItem = sum1 + sum2 + sum3;
+        //     totalItem = sum1 + sum2 + sum3 + selectedOption;
+
+        //     // console.log(sum);
+        //     $("#item").html(sumItem);
+        //     $("#total").html(totalItem);
+
+        // }
+
+    </script>
+</body>
+
+</html>

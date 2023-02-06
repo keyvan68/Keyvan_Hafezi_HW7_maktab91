@@ -1,0 +1,20 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    direction: rtl;
+}
+
+.container {
+    margin: 20px auto;
+}
+
+.hrBotomColored {
+    border: 3px solid #2dd52d;
+    opacity: 1;
+}
+
+.boxing {
+    width: 60px;
+
+}

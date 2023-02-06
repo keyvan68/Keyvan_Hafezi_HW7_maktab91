@@ -1,0 +1,24 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    direction: rtl;
+}
+
+.main {
+    border: 2px solid black;
+    border-radius: 5px;
+    margin: 30px auto;
+}
+
+.hrcontent {
+    height: 2px;
+    padding: 1px;
+    margin: 12px;
+}
+
+/* .hrmenu {
+    height: 2px;
+    padding: 1px;
+    margin: 12px;
+} */
